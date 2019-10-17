@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body "fullpage logged-in sidebar-false">
+<style>
+	body {
+    font-family: 'Lato', sans-serif;
+    
+}
+.header{
+    color:white;
+    text-align: center;
+	font-size:30px;
+}
+.icon-small{
+	color:white;
+	margin-left: 120px;
+	padding-top: 20px;
+}
+.nav-link{
+	padding-left:100%;
+	color:white;
+}
+
+.navbar {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li{
+    font-size: 20px;
+  	list-style:none;
+	  padding-left:0px;
+	  padding-right:0px;
+	}
+#top{
+    background-color:black;
+	
+}
+
+.image{
+	height:10%;
+	padding-top:50px;
+	padding-left:70px;
+	padding-right:70px;
+  width: 100%;
+    
+}
+.img-responsive{
+ padding-top:40px;
+}
+#text{
+    padding-top:60px;
+    font-size: 14px;
+    font-style:italic;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-left:150px;
+  margin-right:250px;
+  margin-bottom:80px;
+  font-size:26px;
+  color:white;
+
+}
+</style>
+<section id="top">
+<div class="container">
+    <div class="row">
+		<div class="icon-small">
+        <div class="col-md-4">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>  
+        </div>
+		<div class="col-md-4">
+			<a class="header" href="#">Philosophy.</a>
+		</div>
+		<div class="col-md-4>
+		<a class="nav-link" href="#">SEARCH</a>
+		<i class="fa fa-search"></i>
+		</div>
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-fixed-top ">	
+	<div class="navbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">category 1</a></li>
+          <li><a href="#">category 2</a></li>
+          <li><a href="#">category 3</a></li>
+        </ul>
+      </li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Blog 1</a></li>
+          <li><a href="#">Blog 2</a></li>
+          <li><a href="#">Blog 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Styles</a></li>
+      <li><a href="#">About</a></li>
+	   <li><a href="#">Contact</a></li>
+    </ul>
+	</div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+		<div class="col-sm-8">
+			<img class ="image" src="music.jpg" alt="Snow" width="500px">
+			<div class="bottom-left">What Your Music Preference Says About You And Your Personality.</div>
+		</div>
+		<div class="col-sm-4>
+			<img class ="image" src="music.jpg" alt="Snow" width="250px">
+        </div>  
+	</div>
+</div>
+</section>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3"><img class="img-responsive" src="fjords.jpg" alt="Hydrangeas" height="100px" width="700px">
+		<figcaption class="figure-caption">A mountain is a large landform that rises above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. </figcaption>
+  
+	</div>
+		<div class="col-sm-3">
+		<p id="text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder </p>
+  </div>
+  
+  <div class="col-sm-3"><img class="img-responsive" src="lights.jpg" alt="Hydrangeas" height="100px" width="700px">
+    <figcaption class="figure-caption">Light is a type of energy. It is a form of electromagnetic radiation of a wavelength which can be detected by the human eye. </figcaption>
+</div>
+
+  <div class="col-sm-3"><img class="img-responsive" src="nature.jpg" alt="Hydrangeas" height="100px" width="700px">
+    <figcaption class="figure-caption">Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. </figcaption>
+ 
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
